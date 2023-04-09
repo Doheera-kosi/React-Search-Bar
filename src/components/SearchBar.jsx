@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {FaSearch} from 'react-icons/fa'
 import "./SearchBar.css"
 
-const SearchBar = () => {
+const SearchBar = ({ setResults }) => {
   const [input, setInput] = useState("")
 
   const fetchData = (value) => {
@@ -17,7 +17,7 @@ const SearchBar = () => {
           user.name.toLowerCase().includes(value)
         )
       });
-      console.log(results);
+      setResults(results);
     });
   };
 
