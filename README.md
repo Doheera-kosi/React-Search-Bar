@@ -24,11 +24,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [React_Search_Bar] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[React_Search__Bar]** is a simple search app that filters through a list of users from an API and return a search result base on input text
 
 ## 🛠 Built With <a name="built-with"></a>
 
